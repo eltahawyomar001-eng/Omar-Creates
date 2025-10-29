@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - banner:
+    - generic:
+      - navigation:
+        - link:
+          - /url: /
+          - img
+          - generic: Omar Creates
+        - list:
+          - listitem:
+            - link:
+              - /url: /experiments
+              - text: Experiments
+          - listitem:
+            - link:
+              - /url: /privacy
+              - text: Privacy
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=1]: Omar Creates
+            - paragraph: iOS & Web micro-SaaS. Validate fast. Ship or stop.
+          - generic:
+            - button: Join Waitlist
+            - link:
+              - /url: https://twitter.com/omarcreates
+              - text: Follow on X
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=2]: Current Experiments
+            - paragraph: Exploring ideas and building in public
+          - generic:
+            - generic:
+              - generic:
+                - generic: testing
+              - heading [level=3]: Ministry of Trivial Achievements
+              - paragraph: Issue absurd certificates for tiny wins.
+          - generic:
+            - link:
+              - /url: /experiments
+              - text: View all experiments →
+  - contentinfo:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: © 2025 Omar Creates
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /privacy
+                  - text: Privacy
+              - listitem:
+                - link:
+                  - /url: /terms
+                  - text: Terms
+              - listitem:
+                - button [expanded]: Contact
+          - generic:
+            - link:
+              - /url: https://twitter.com/omarcreates
+              - generic: Twitter
+              - generic: X
+            - link:
+              - /url: https://github.com/omarcreates
+              - generic: GitHub
+              - generic: GitHub
+        - generic:
+          - paragraph: Built with Next.js, TypeScript, and Tailwind CSS. All rights reserved.
+  - region "Notifications alt+T"
+  - alert
+  - dialog "Contact" [ref=e2]:
+    - button "Close" [active] [ref=e3] [cursor=pointer]:
+      - img [ref=e4]
+      - generic [ref=e7]: Close
+    - generic [ref=e8]:
+      - heading "Contact" [level=2] [ref=e9]
+      - paragraph [ref=e10]: Send me a message. I'll get back to you as soon as possible.
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: Name (optional)
+        - textbox "Name (optional)" [ref=e14]:
+          - /placeholder: Your name
+      - generic [ref=e15]:
+        - generic [ref=e16]: Email (optional)
+        - textbox "Email (optional)" [ref=e17]:
+          - /placeholder: your@email.com
+        - paragraph [ref=e18]: Include your email if you'd like a reply
+      - generic [ref=e19]:
+        - generic [ref=e20]: Message *
+        - textbox "Message *" [ref=e21]:
+          - /placeholder: Your message (at least 20 characters)
+        - paragraph [ref=e22]: Minimum 20 characters required
+      - button "Send Message" [ref=e23] [cursor=pointer]
+```

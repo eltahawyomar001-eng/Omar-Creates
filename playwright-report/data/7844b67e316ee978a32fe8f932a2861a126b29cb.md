@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Main navigation" [ref=e4]:
+      - link "Omar Creates Omar Creates" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Omar Creates" [ref=e6]
+        - generic [ref=e10]: Omar Creates
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Experiments" [ref=e13] [cursor=pointer]:
+            - /url: /experiments
+        - listitem [ref=e14]:
+          - link "Privacy" [ref=e15] [cursor=pointer]:
+            - /url: /privacy
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Omar Creates" [level=1] [ref=e21]
+        - paragraph [ref=e22]: iOS & Web micro-SaaS. Validate fast. Ship or stop.
+      - generic [ref=e23]:
+        - button "Join Waitlist" [ref=e24] [cursor=pointer]
+        - link "Follow on X" [ref=e25] [cursor=pointer]:
+          - /url: https://twitter.com/omarcreates
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Current Experiments" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Exploring ideas and building in public
+      - generic [ref=e33]:
+        - generic [ref=e35]: testing
+        - heading "Ministry of Trivial Achievements" [level=3] [ref=e36]
+        - paragraph [ref=e37]: Issue absurd certificates for tiny wins.
+      - link "View all experiments →" [ref=e39] [cursor=pointer]:
+        - /url: /experiments
+  - contentinfo [ref=e40]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - paragraph [ref=e45]: © 2025 Omar Creates
+        - navigation "Footer navigation" [ref=e46]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "Privacy" [ref=e49] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e50]:
+              - link "Terms" [ref=e51] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e52]:
+              - button "Contact" [ref=e53] [cursor=pointer]
+        - generic [ref=e54]:
+          - link "Twitter" [ref=e55] [cursor=pointer]:
+            - /url: https://twitter.com/omarcreates
+            - generic [ref=e56]: Twitter
+            - generic [ref=e57]: X
+          - link "GitHub" [ref=e58] [cursor=pointer]:
+            - /url: https://github.com/omarcreates
+            - generic [ref=e59]: GitHub
+            - generic [ref=e60]: GitHub
+      - paragraph [ref=e62]: Built with Next.js, TypeScript, and Tailwind CSS. All rights reserved.
+  - region "Notifications alt+T"
+  - alert [ref=e63]
+```

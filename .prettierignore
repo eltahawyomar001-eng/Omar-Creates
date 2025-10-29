@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+dist
+build
+*.log
+.env*.local
+.env
+coverage
+public/sw.js
+public/workbox-*.js
+public/worker-*.js
