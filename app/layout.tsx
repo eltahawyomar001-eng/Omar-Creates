@@ -38,12 +38,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const siteUrl = env.NEXT_PUBLIC_SITE_URL
+  
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Omar Creates',
-    url: 'https://omarcreates.com',
-    logo: 'https://omarcreates.com/icons/icon-192x192.svg',
+    url: siteUrl,
+    logo: `${siteUrl}/icons/icon-192x192.svg`,
     description: 'Simple iOS & Web micro-SaaS ideas. Validate fast. Demos, data, decisions.',
     socialMedia: [
       'https://x.com/omar_create',
