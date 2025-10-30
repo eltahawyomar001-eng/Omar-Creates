@@ -14,6 +14,11 @@ export const metadata: Metadata = generateSEOMetadata({
   path: '/experiments',
 });
 
+/**
+ * Revalidate every 60 seconds
+ */
+export const revalidate = 60;
+
 interface ExperimentsPageProps {
   searchParams: {
     status?: string;

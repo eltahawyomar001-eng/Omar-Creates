@@ -9,6 +9,11 @@ import type { Experiment } from '@/types/db';
 import Link from 'next/link';
 
 /**
+ * Revalidate every 60 seconds
+ */
+export const revalidate = 60;
+
+/**
  * Fetch top 3 experiments from database
  */
 async function getExperiments(): Promise<Experiment[]> {
